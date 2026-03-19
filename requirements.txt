@@ -1,0 +1,14 @@
+requests
+httpx
+beautifulsoup4
+lxml
+typer
+rich
+rapidfuzz
+pandas
+passlib
+pyyaml
+loguru
+PySocks
+keyring
+cryptography

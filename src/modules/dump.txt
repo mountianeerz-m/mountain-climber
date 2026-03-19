@@ -1,0 +1,90 @@
+# --- Breach Dump: Collection_A ---
+
+email: john.doe@gmail.com
+username: johndoe123
+password: 123456
+ip: 192.168.1.45
+
+---
+
+john.doe@gmail.com:password123
+username=johnny_d
+phone=555-123-8899
+
+---
+
+EMAIL: jane_smith@yahoo.com
+PASS: qwerty
+USER: janesmith
+
+---
+
+user: coolguy99 | email: coolguy99@outlook.com | pass: letmein
+
+---
+
+# Random paste format
+login -> alex_47
+mail -> alex47@gmail.com
+pwd -> ilovecats
+
+---
+
+# Hash included
+email: mark_twain@protonmail.com
+hash: 5f4dcc3b5aa765d61d8327deb882cf99
+
+---
+
+# Partial data (common IRL)
+username: shadowX
+password: dragon
+
+---
+
+# Messy JSON-like
+{
+  "email": "lucy.liu@gmail.com",
+  "username": "lulu88",
+  "password": "passw0rd!"
+}
+
+---
+
+# Another variation
+EMAIL=kevin.hart@mail.com;PASS=welcome1;USER=kevinh
+
+---
+
+# Duplicate-ish data (for testing dedup + matching)
+email: john.doe@gmail.com
+password: 123456
+username: jd_1999
+
+---
+
+# Noise (you should ignore this)
+just some random text that means nothing
+hello world
+1234567890
+
+---
+
+# Credential combo style
+admin:admin123
+root:toor
+guest:guest
+
+---
+
+# Mixed structured line
+email=jane_smith@yahoo.com | username=jane2020 | password=qwerty
+
+---
+
+# Another hash + reused password
+username: mark_twain
+password: password
+hash: 5f4dcc3b5aa765d61d8327deb882cf99
+
+---
